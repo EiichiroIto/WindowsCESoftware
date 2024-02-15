@@ -1,0 +1,8 @@
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\05]
+"Entry"="DetectionFunction"
+"Dll"="DETECT.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\GetTuple]
+"Prefix"="DET"
+"Dll"="DETECT.DLL"

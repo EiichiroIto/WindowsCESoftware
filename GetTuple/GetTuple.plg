@@ -1,0 +1,55 @@
+--------------------Configuration: GetTuple - Win32 (WCE SH) Release--------------------
+Begining build with project "D:\users\itoh\WINCE\GetTuple\GetTuple.dsp", at root.
+Active configuration is Win32 (WCE SH) Application (based on Win32 (WCE SH) Application)
+
+Project's tools are:
+			"C/C++ Compiler for SH" with flags "/nologo /ML /W3 /GX- /O2 /D "NDEBUG" /D "SH3" /D "_SH3_" /D "_WIN32_WCE" /D "UNICODE" /Fp"WCESHRel/GetTuple.pch" /YX /Fo"WCESHRel/" /c "
+			"Resource Compiler (RC)" with flags "/l 0x411 /r /d "SH3" /d "_SH3_" /d "_WIN32_WCE" /d "UNICODE" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"WCESHRel/GetTuple.bsc" "
+			"COFF Linker for SH" with flags "commctrl.lib coredll.lib pcmcia.lib /nologo /entry:"WinMainCRTStartup" /base:"0x00010000" /align:"4096" /incremental:no /pdb:"WCESHRel/GetTuple.pdb" /machine:SH3 /out:"WCESHRel/GetTuple.exe" /subsystem:windowsce "
+			"PFile Utility" with flags "COPY "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "E:\TEMP\RSP12A.tmp" with contents </nologo /ML /W3 /GX- /O2 /D "NDEBUG" /D "SH3" /D "_SH3_" /D "_WIN32_WCE" /D "UNICODE" /Fp"WCESHRel/GetTuple.pch" /YX /Fo"WCESHRel/" /c 
+"D:\users\itoh\WINCE\GetTuple\gettuple.C"
+>
+Creating command line "shcl.exe @E:\TEMP\RSP12A.tmp" 
+Creating command line "link.exe commctrl.lib coredll.lib pcmcia.lib /nologo /entry:"WinMainCRTStartup" /base:"0x00010000" /align:"4096" /incremental:no /pdb:"WCESHRel/GetTuple.pdb" /machine:SH3 /out:"WCESHRel/GetTuple.exe" /subsystem:windowsce  .\WCESHRel\gettuple.obj" 
+Compiling...
+gettuple.C
+Linking...
+
+
+
+
+GetTuple.exe - 0 error(s), 0 warning(s)
+--------------------Configuration: Detect - Win32 (WCE SH) Release--------------------
+Begining build with project "D:\users\itoh\WINCE\GetTuple\Detect\Detect.dsp", at root.
+Active configuration is Win32 (WCE SH) Dynamic-Link Library (based on Win32 (WCE SH) Dynamic-Link Library)
+
+Project's tools are:
+			"C/C++ Compiler for SH" with flags "/nologo /ML /W3 /GX- /O2 /D "NDEBUG" /D "SH3" /D "_SH3_" /D "_WIN32_WCE" /D "UNICODE" /Fp"WCESHRel/Detect.pch" /YX /Fo"WCESHRel/" /c "
+			"Resource Compiler (RC)" with flags "/l 0x411 /r /d "SH3" /d "_SH3_" /d "_WIN32_WCE" /d "UNICODE" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"WCESHRel/Detect.bsc" "
+			"COFF Linker for SH" with flags "commctrl.lib coredll.lib pcmcia.lib /nologo /entry:"_DllMainCRTStartup" /base:"0x10000000" /align:"4096" /dll /incremental:no /pdb:"WCESHRel/Detect.pdb" /machine:SH3 /def:"..\detect.DEF" /out:"WCESHRel/Detect.dll" /implib:"WCESHRel/Detect.lib" /subsystem:windowsce "
+			"PFile Utility" with flags "COPY "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "E:\TEMP\RSP12B.tmp" with contents </nologo /ML /W3 /GX- /O2 /D "NDEBUG" /D "SH3" /D "_SH3_" /D "_WIN32_WCE" /D "UNICODE" /Fp"WCESHRel/Detect.pch" /YX /Fo"WCESHRel/" /c 
+"D:\users\itoh\WINCE\GetTuple\detect.C"
+>
+Creating command line "shcl.exe @E:\TEMP\RSP12B.tmp" 
+Creating temp file "E:\TEMP\RSP12C.tmp" with contents <commctrl.lib coredll.lib pcmcia.lib /nologo /entry:"_DllMainCRTStartup" /base:"0x10000000" /align:"4096" /dll /incremental:no /pdb:"WCESHRel/Detect.pdb" /machine:SH3 /def:"..\detect.DEF" /out:"WCESHRel/Detect.dll" /implib:"WCESHRel/Detect.lib" /subsystem:windowsce 
+.\WCESHRel\detect.obj>
+Creating command line "link.exe @E:\TEMP\RSP12C.tmp" 
+Compiling...
+detect.C
+Linking...
+   Creating library WCESHRel/Detect.lib and object WCESHRel/Detect.exp
+
+
+
+
+Detect.dll - 0 error(s), 0 warning(s)

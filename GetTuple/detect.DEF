@@ -1,0 +1,14 @@
+LIBRARY 	DETECT
+DESCRIPTION	'PCMCIA Get Tuple Data'
+CODE EXECUTE READ SHARED
+EXPORTS DET_Init
+	DET_Deinit
+	DET_Open
+	DET_Close
+	DET_Read
+	DET_Write
+	DET_Seek
+	DET_IOControl
+	DET_PowerUp
+	DET_PowerDown
+	DetectionFunction

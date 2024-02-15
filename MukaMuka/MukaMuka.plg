@@ -1,0 +1,28 @@
+--------------------ç\ê¨: MukaMuka - Win32 (WCE x86em) Debug--------------------
+Begining build with project "D:\users\itoh\wince\MukaMuka\MukaMuka.dsp", at root.
+Active configuration is Win32 (WCE x86em) Application (based on Win32 (WCE x86em) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86em" with flags "/nologo /MLd /W3 /Gm /Zi /Od /D "WIN32" /D "_WIN32" /D "_DEBUG" /D "_WINDOWS" /D "STRICT" /D "_WIN32_WCE" /D "UNDER_NT" /D "_WIN32_WCE_EMULATION" /D "UNICODE" /D "_UNICODE" /D "_X86_" /Fp"x86emDbg/MukaMuka.pch" /YX /Fo"x86emDbg/" /Fd"x86emDbg/" /c "
+			"Win32 Resource Compiler" with flags "/l 0x411 /fo"x86emDbg/MUKAMUKA.res" /d "_WIN32_WCE" /d "UNDER_NT" /d "_WIN32_WCE_EMULATION" /d "UNICODE" /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"x86emDbg/MukaMuka.bsc" "
+			"COFF Linker for 80x86em" with flags "comctl32.lib coredll.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:yes /pdb:"x86emDbg/MukaMuka.pdb" /debug /machine:I386 /out:"x86emDbg/MukaMuka.exe" /windowsce:emulation "
+			"Empfile Utility" with flags "-NOSHELL -COPY "
+			"∂Ω¿— ÀﬁŸƒﬁ" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x411 /fo"x86emDbg/MUKAMUKA.res" /d "_WIN32_WCE" /d "UNDER_NT" /d "_WIN32_WCE_EMULATION" /d "UNICODE" /d "_DEBUG" "D:\users\itoh\wince\MukaMuka\MUKAMUKA.rc"" 
+Creating temp file "D:\TEMP\RSP55.tmp" with contents <comctl32.lib coredll.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:yes /pdb:"x86emDbg/MukaMuka.pdb" /debug /machine:I386 /out:"x86emDbg/MukaMuka.exe" /windowsce:emulation 
+.\x86emDbg\dialog.obj
+.\x86emDbg\MUKAMUKA.obj
+.\x86emDbg\MUKAMUKA.res>
+Creating command line "link.exe @D:\TEMP\RSP55.tmp" 
+ÿø∞ΩÇ∫› ﬂ≤ŸíÜ...
+ÿ›∏íÜ...
+Converting 2bpp BITMAP to 4bpp BITMAP
+Converting 2bpp ICON to 4bpp ICON
+Converting 2bpp ICON to 4bpp ICON
+
+
+
+MukaMuka.exe - ¥◊∞ 0ÅAåxçê 0

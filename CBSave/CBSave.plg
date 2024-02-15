@@ -1,0 +1,32 @@
+--------------------Configuration: CBSave - Win32 (WCE SH) Release--------------------
+Begining build with project "D:\users\itoh\WINCE\CBSAVE\CBSave.dsp", at root.
+Active configuration is Win32 (WCE SH) Application (based on Win32 (WCE SH) Application)
+
+Project's tools are:
+			"C/C++ Compiler for SH" with flags "/nologo /ML /W3 /O2 /I "..\kctrl" /D "NDEBUG" /D "SH3" /D "_SH3_" /D "_WIN32_WCE" /D "UNICODE" /Fp"WCESHRel/CBSave.pch" /YX /Fo"WCESHRel/" /c "
+			"Resource Compiler (RC)" with flags "/l 0x411 /r /fo"WCESHRel/main.rsc" /d "SH3" /d "_SH3_" /d "_WIN32_WCE" /d "UNICODE" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"WCESHRel/CBSave.bsc" "
+			"COFF Linker for SH" with flags "commctrl.lib coredll.lib ..\kctrl\wceshrel\kctrl.lib /nologo /entry:"WinMainCRTStartup" /base:"0x00010000" /align:"4096" /incremental:no /pdb:"WCESHRel/CBSave.pdb" /machine:SH3 /out:"WCESHRel/CBSave.exe" /subsystem:windowsce "
+			"PFile Utility" with flags "COPY "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP28.tmp" with contents </nologo /ML /W3 /O2 /I "..\kctrl" /D "NDEBUG" /D "SH3" /D "_SH3_" /D "_WIN32_WCE" /D "UNICODE" /Fp"WCESHRel/CBSave.pch" /YX /Fo"WCESHRel/" /c 
+"D:\users\itoh\WINCE\CBSAVE\appmain.cpp"
+>
+Creating command line "shcl.exe @C:\TEMP\RSP28.tmp" 
+Creating temp file "C:\TEMP\RSP29.tmp" with contents <commctrl.lib coredll.lib ..\kctrl\wceshrel\kctrl.lib /nologo /entry:"WinMainCRTStartup" /base:"0x00010000" /align:"4096" /incremental:no /pdb:"WCESHRel/CBSave.pdb" /machine:SH3 /out:"WCESHRel/CBSave.exe" /subsystem:windowsce 
+.\WCESHRel\appmain.obj
+.\WCESHRel\BASEWIN.OBJ
+.\WCESHRel\dialog.obj
+.\WCESHRel\main.obj
+.\WCESHRel\TOOLS1.OBJ
+.\WCESHRel\main.rsc>
+Creating command line "link.exe @C:\TEMP\RSP29.tmp" 
+Compiling...
+appmain.cpp
+Linking...
+
+
+
+CBSave.exe - 0 error(s), 0 warning(s)

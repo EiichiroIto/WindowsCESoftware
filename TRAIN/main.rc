@@ -1,0 +1,263 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Japanese resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    "0",            IDM_SEARCH,             VIRTKEY, CONTROL, NOINVERT
+    "3",            IDM_CHANGETIME,         VIRTKEY, CONTROL, NOINVERT
+    "5",            IDM_TERM_LINE,          VIRTKEY, CONTROL, NOINVERT
+    "6",            IDM_SELECT_LINE,        VIRTKEY, CONTROL, NOINVERT
+    "O",            IDM_OPEN,               VIRTKEY, CONTROL, NOINVERT
+    "S",            IDM_SAVE_IMG,           VIRTKEY, CONTROL, NOINVERT
+    "X",            IDM_EXIT,               VIRTKEY, ALT, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP  DISCARDABLE     "toolbar1.bmp"
+IDB_ICON_TRAIN          BITMAP  DISCARDABLE     "train.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_BUTTON40007
+    BUTTON      ID_BUTTON40008
+    BUTTON      ID_BUTTON40009
+    BUTTON      ID_BUTTON40010
+    BUTTON      ID_BUTTON40011
+    BUTTON      ID_BUTTON40012
+    BUTTON      ID_BUTTON40013
+    BUTTON      ID_BUTTON40014
+END
+
+#endif    // Japanese resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TOTAL_TIME          BITMAP  DISCARDABLE     "total.bmp"
+IDB_BOAD_TIME           BITMAP  DISCARDABLE     "boad.bmp"
+IDB_WALK_TIME           BITMAP  DISCARDABLE     "foot.bmp"
+IDB_WAIT_TIME           BITMAP  DISCARDABLE     "wait.bmp"
+IDB_CHANGE              BITMAP  DISCARDABLE     "change.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APPICON             ICON    DISCARDABLE     "appicon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            IDM_OPEN
+        MENUITEM "Save &Image\tCtrl+S",         IDM_SAVE_IMG
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+X",                IDM_EXIT
+    END
+    POPUP "&Search"
+    BEGIN
+        MENUITEM "&Go\tCtrl+0",                 IDM_SEARCH
+        MENUITEM "&Time...\tCtrl+3",            IDM_CHANGETIME
+    END
+    POPUP "&Option"
+    BEGIN
+        MENUITEM "&Line...\tCtrl+6",            IDM_SELECT_LINE
+        MENUITEM "&Term Line...\tCtrl+5",       IDM_TERM_LINE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About...",                   IDM_ABOUT
+    END
+END
+
+IDR_NARROW_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&About...",                   IDM_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "&Open...\tCtrl+O",            IDM_OPEN
+        MENUITEM "Save &Image\tCtrl+S",         IDM_SAVE_IMG
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+X",                IDM_EXIT
+    END
+    POPUP "&Other"
+    BEGIN
+        MENUITEM "&Go\tCtrl+0",                 IDM_SEARCH
+        MENUITEM "&Time...\tCtrl+3",            IDM_CHANGETIME
+        MENUITEM SEPARATOR
+        MENUITEM "&Line...\tCtrl+6",            IDM_SELECT_LINE
+        MENUITEM "&Term Line...\tCtrl+5",       IDM_TERM_LINE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_VARIABLE DIALOG DISCARDABLE  0, 0, 187, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CAPTIONOKBTN
+FONT 8, "PegasusDialog"
+BEGIN
+END
+
+IDD_DLG_ABOUT DIALOG DISCARDABLE  0, 0, 134, 63
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Train"
+FONT 8, "PegasusDialog"
+BEGIN
+    CTEXT           "Train/CE Ver 0.10",IDC_VERSION,1,2,112,8
+    CTEXT           "",IDC_COPYRIGHT,1,31,94,29,WS_BORDER
+    CTEXT           "dll version",IDC_DLLVERSION,1,12,112,8
+    PUSHBUTTON      "Uninst",IDC_UNINSTALL,101,32,30,28
+    CONTROL         114,IDC_ICON_TRAIN,"Static",SS_BITMAP,118,2,13,12
+END
+
+IDD_DLG_FOPEN DIALOG DISCARDABLE  0, 0, 134, 111
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CAPTIONOKBTN
+CAPTION "FileOpen Dialog"
+FONT 8, "PegasusDialog"
+BEGIN
+    EDITTEXT        IDC_EDT_FILE,1,1,130,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_LST_FILE,1,37,130,71,LBS_SORT | LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Static",IDC_CAP_DIR,1,21,110,9
+    PUSHBUTTON      "...",IDC_BTN_DIR,114,20,17,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLG_VARIABLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 183
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_DLG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 131
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_DLG_FOPEN, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 131
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 108
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
